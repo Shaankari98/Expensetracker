@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  width: 350px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 8px;
+  background: #eee;
+}
+
+li.plus { border-right: 5px solid green; }
+li.minus { border-right: 5px solid red; }
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
